@@ -1,0 +1,18 @@
+{
+    "name": "reader-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "read.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "node nodeServer",
+        "sass": "sass --watch scss/style.scss css/style.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "requirejs": "^2.3.6",
+        "sass": "^1.26.3"
+    }
+}

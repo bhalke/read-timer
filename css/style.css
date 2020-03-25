@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+.mybutton, body #main-container button#endbtn, body #main-container button#startbtn {
+  font-size: 2rem;
+  color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  color: blue;
+  background-color: #fdd;
+}
+body #main-container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+body #main-container #upload-container {
+  background-color: #ddd;
+  padding: 5px;
+  margin: 0 0 1% 0%;
+  width: 100%;
+}
+body #main-container #textArea {
+  text-align: center;
+  margin: 0 auto;
+}
+body #main-container #textArea #holder {
+  width: 100%;
+  font-size: 1.2rem;
+  min-height: 250px;
+  padding: 0.8rem;
+}
+body #main-container #time-container {
+  display: flex;
+}
+body #main-container #btnHol {
+  flex: 1;
+  order: 2;
+  text-align: end;
+}
+body #main-container button#startbtn {
+  background-color: #4CAF50;
+}
+body #main-container button#endbtn {
+  background-color: #e40000;
+}
+body #main-container #time-display {
+  flex: 2;
+  order: 1;
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+$myFont: Helvetica,sans-serif;
+$myColor: blue;
+$myFontSize: 1rem;
+$myWidth: 100%;
+$myHeight:100%;
+$minheight:250px;
+html {
+	font-size: 14px;
+}
+
+.mybutton {
+	font-size: 2rem;
+	color: white;
+}
+
+body {
+	font-family: $myFont;
+	font-size: 2rem;
+	color: $myColor;
+	background-color: #fdd;
+	#main-container {
+		width: 80%;
+		margin: 0 auto;
+		font-size: 1.5rem;
+		#upload-container {
+			background-color: #ddd;
+			padding: 5px;
+			margin: 0 0 1% 0%;
+			width: 100%;
+		}
+		#textArea {
+			text-align: center;
+			margin: 0 auto;
+			#holder {
+				width: 100%;
+				font-size: 1.2rem;
+				min-height: $minheight;
+				padding: .8rem;
+			}
+		}
+		#time-container {
+			display: flex;
+		}
+		#btnHol {
+			flex: 1;
+			order: 2;
+			text-align: end;
+		}
+		button#startbtn {
+			@extend .mybutton;
+			background-color: #4CAF50;
+		}
+		button#endbtn {
+			@extend .mybutton;
+			background-color: #e40000;
+		}
+		#time-display {
+			flex: 2;
+			order: 1;
+			align-self: flex-end;
+		}
+	}
+} // #container {// width: $minheight;// }
